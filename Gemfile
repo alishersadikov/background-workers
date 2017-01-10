@@ -12,6 +12,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pry-rails'
 gem 'sidekiq'
+gem 'sinatra', '>= 1.3.0', :require => nil
+
 gem 'hurley'
 
 group :development, :test do
